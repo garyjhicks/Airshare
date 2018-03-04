@@ -39,7 +39,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTF-uX-h86">
                                 <rect key="frame" x="181" y="584" width="52" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Save"/>
+                                <state key="normal" title=" "/>
                                 <connections>
                                     <action selector="save:" destination="TaW-BA-smr" eventType="touchUpInside" id="1X4-Gm-bd4"/>
                                     <segue destination="cBg-O6-LOB" kind="show" id="aRf-0R-TzX"/>
@@ -167,7 +167,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nf3-95-1e7">
                                 <rect key="frame" x="168" y="580" width="79" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add User"/>
+                                <state key="normal" title=" "/>
                                 <connections>
                                     <action selector="add:" destination="h8d-tc-3Iy" eventType="touchUpInside" id="7VZ-gx-fzr"/>
                                     <segue destination="cBg-O6-LOB" kind="show" id="MOz-9O-3iN"/>
@@ -248,7 +248,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n95-gb-IWR">
                                 <rect key="frame" x="83" y="554" width="101" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="Login:" destination="mbg-Zd-EXm" eventType="touchUpInside" id="gP1-pq-qLO"/>
                                 </connections>
@@ -256,7 +255,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ap-62-3M1">
                                 <rect key="frame" x="224" y="554" width="98" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Sign Up"/>
+                                <state key="normal" title=" "/>
                                 <connections>
                                     <action selector="signUp:" destination="mbg-Zd-EXm" eventType="touchUpInside" id="aOB-9n-A74"/>
                                 </connections>
@@ -343,7 +342,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6.1-AirShare Buddy Profile 3.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Na-ux-jvI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="airshare.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Na-ux-jvI">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -364,7 +363,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxr-2Z-YRJ">
                                 <rect key="frame" x="50" y="613" width="314" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Accept"/>
+                                <state key="normal" title=" "/>
                                 <connections>
                                     <action selector="accept:" destination="FQN-5x-gHW" eventType="touchUpInside" id="oSM-K1-XWE"/>
                                     <segue destination="cBg-O6-LOB" kind="show" id="M2K-P0-WBk"/>
@@ -404,12 +403,12 @@
         <image name="11.1-Post Your Trip.png" width="414" height="736"/>
         <image name="12.1-Find Your Trip.png" width="414" height="736"/>
         <image name="2.1-Sign In.png" width="414" height="736"/>
-        <image name="6.1-AirShare Buddy Profile 3.png" width="414" height="736"/>
         <image name="7.1-AirShare Buddy Profile 4.png" width="414" height="736"/>
+        <image name="airshare.png" width="414" height="736"/>
         <image name="blue.png" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dAj-Z3-cqa"/>
-        <segue reference="MOz-9O-3iN"/>
+        <segue reference="8ST-08-DuJ"/>
     </inferredMetricsTieBreakers>
 </document>

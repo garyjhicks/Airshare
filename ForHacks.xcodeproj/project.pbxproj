@@ -10,6 +10,7 @@
 		EC262BA0204B5DD300F72647 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC262B9F204B5DD300F72647 /* TableViewController.swift */; };
 		EC262BA2204B5FE400F72647 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC262BA1204B5FE400F72647 /* AddViewController.swift */; };
 		EC262BA4204B681B00F72647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC262BA3204B681B00F72647 /* ViewController.swift */; };
+		EC3E593B204C815A000257D2 /* airshare.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3E593A204C815A000257D2 /* airshare.png */; };
 		EC60850C204A372F00EC54C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60850B204A372F00EC54C6 /* AppDelegate.swift */; };
 		EC608511204A372F00EC54C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC60850F204A372F00EC54C6 /* Main.storyboard */; };
 		EC608513204A372F00EC54C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC608512204A372F00EC54C6 /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		EC262B9F204B5DD300F72647 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		EC262BA1204B5FE400F72647 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		EC262BA3204B681B00F72647 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC3E593A204C815A000257D2 /* airshare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airshare.png; sourceTree = "<group>"; };
 		EC608508204A372F00EC54C6 /* ForHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC60850B204A372F00EC54C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC608510204A372F00EC54C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				EC608517204A372F00EC54C6 /* Info.plist */,
 				EC6ACBAE204BEA4F008EF4A8 /* blue.png */,
 				EC6ACBE8204C7BA3008EF4A8 /* logo_1024.png */,
+				EC3E593A204C815A000257D2 /* airshare.png */,
 				EC6ACBCB204C79B8008EF4A8 /* protoio-Airshare-screenshots (1) */,
 			);
 			path = ForHacks;
@@ -335,6 +338,7 @@
 				EC6ACBE1204C79B8008EF4A8 /* 6.1-AirShare Buddy Profile 3.png in Resources */,
 				EC6ACBDE204C79B8008EF4A8 /* 11.1-Post Your Trip.png in Resources */,
 				EC6ACBDF204C79B8008EF4A8 /* 12.1-Find Your Trip.png in Resources */,
+				EC3E593B204C815A000257D2 /* airshare.png in Resources */,
 				EC6ACBDC204C79B8008EF4A8 /* 2.1-Sign In.png in Resources */,
 				EC608516204A372F00EC54C6 /* LaunchScreen.storyboard in Resources */,
 				EC6ACBE9204C7BA3008EF4A8 /* logo_1024.png in Resources */,

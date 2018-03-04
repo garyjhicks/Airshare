@@ -14,6 +14,7 @@ struct MyVars {
     static var myLocation: CLLocation = CLLocation(latitude: 0, longitude: 0)
     static var myAirport: String = "None"
     static var objectid: String = "None"
+    static var status: Bool = false
 }
 
 class ConstraintViewController: UIViewController {

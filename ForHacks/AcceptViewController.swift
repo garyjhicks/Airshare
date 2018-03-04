@@ -14,6 +14,25 @@ class AcceptViewController: UIViewController {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var time: UILabel!
     
+    var done = false
+    var name0: String = ""
+    var time0: String = ""
+    var gate0: String = ""
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if done == true {
+            print("completed")
+            print(name0)
+            print(time0)
+            print(gate0)
+            
+            name.text = name0
+            gate.text = gate0
+            time.text = time0
+            
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,9 +44,16 @@ class AcceptViewController: UIViewController {
             if let people = objects {
                 for person in people {
                     self.name.text = "You have matched with \(person["name"]!)!"
+                    self.name0 = self.name.text!
                     self.gate.text = "Meet at gate \(person["gate"]!)!"
+                    self.gate0 = self.gate.text!
                     self.time.text = "Be there by \(person["time"]!)!"
+                    self.time0 = self.time.text!
+                    self.done = true
                 }
+                self.name0 = self.name.text!
+                self.gate0 = self.gate.text!
+                self.time0 = self.time.text!
             }
         }
         
@@ -40,6 +66,18 @@ class AcceptViewController: UIViewController {
         query.findObjectsInBackground { (objects, error) in
             if let people = objects {
                 for person in people {
+                    
+                    MyVars.status = true
+                    
+                    let accept = PFObject(className: "Acceptances")
+                    
+                    accept["poster"] = person["userid"]
+                    accept["clicker"] = PFUser.current()?.objectId
+                    accept["gate"] = person["gate"]
+                    accept["time"] = person["time"]
+                    
+                    accept.saveInBackground()
+                    
                     person.deleteInBackground()
                 }
             }

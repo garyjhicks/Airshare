@@ -16,6 +16,8 @@ class TableViewController: UITableViewController {
     var destinations = [String]()
     var latitude = [Double]()
     var longitude = [Double]()
+    var toDelete = [Int]()
+    var objectid = [String]()
     
     /*override func viewDidAppear(_ animated: Bool) {
         
@@ -50,24 +52,36 @@ class TableViewController: UITableViewController {
                     self.airport.append(person["airport"] as! String!)
                     self.latitude.append(person["latitude"] as! Double)
                     self.longitude.append(person["longitude"] as! Double)
+                    self.objectid.append((person.objectId)!)
                     
-                    var count = 0
+                    /*let latdif = (self.latitude[self.latitude.count-1]-MyVars.myLocation.coordinate.latitude)*(self.latitude[self.latitude.count-1]-MyVars.myLocation.coordinate.latitude)
+                    let longdif = (self.longitude[self.longitude.count-1]-MyVars.myLocation.coordinate.longitude)*(self.longitude[self.longitude.count-1]-MyVars.myLocation.coordinate.longitude)*/
                     
-                    for theAirport in self.airport {
-                        if (MyVars.myAirport != "None") && (MyVars.myAirport != theAirport) {
-                            self.airport.remove(at: count)
-                            self.destinations.remove(at: count)
-                            self.latitude.remove(at: count)
-                            self.longitude.remove(at: count)
-                        }
-                        count+=1
-                        //print(destinations)
-                    }
                     
                     //print(self.destinations)
-                    self.tableView.reloadData()
-                    self.tableView.tableFooterView = UIView()
                 }
+                var count = 0
+                for theAirport in self.airport {
+                    
+                    let latdif = (self.latitude[count]-MyVars.myLocation.coordinate.latitude)*(self.latitude[count]-MyVars.myLocation.coordinate.latitude)
+                    let longdif = (self.longitude[count]-MyVars.myLocation.coordinate.longitude)*(self.longitude[count]-MyVars.myLocation.coordinate.longitude)
+                    //print((latdif+longdif).squareRoot())
+                    //print(self.destinations[count])
+                    
+                    if (MyVars.myAirport != "None") && ((MyVars.myAirport != theAirport) || (latdif+longdif).squareRoot()>0.1){
+                        self.airport.remove(at: count)
+                        self.destinations.remove(at: count)
+                        self.latitude.remove(at: count)
+                        self.longitude.remove(at: count)
+                        self.objectid.remove(at: count)
+                        count-=1
+                    }
+                    count+=1
+                    print(self.destinations)
+                }
+                self.tableView.reloadData()
+                self.tableView.tableFooterView = UIView()
+                //print(self.destinations)
             }
         }
         
@@ -108,6 +122,17 @@ class TableViewController: UITableViewController {
         
      return cell
      }
+    
+    var activeRow = 0
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        activeRow = indexPath.row
+        MyVars.objectid = objectid[activeRow]
+        print(MyVars.objectid)
+        
+        self.performSegue(withIdentifier: "toAccept", sender: self)
+    }
     
     
     /*

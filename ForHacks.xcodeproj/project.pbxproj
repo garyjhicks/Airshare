@@ -17,6 +17,8 @@
 		EC608521204A372F00EC54C6 /* ForHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC608520204A372F00EC54C6 /* ForHacksTests.swift */; };
 		EC60852C204A372F00EC54C6 /* ForHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC60852B204A372F00EC54C6 /* ForHacksUITests.swift */; };
 		EC6ACBA3204B7365008EF4A8 /* ConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6ACBA2204B7365008EF4A8 /* ConstraintViewController.swift */; };
+		EC6ACBA5204BC68D008EF4A8 /* AcceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6ACBA4204BC68D008EF4A8 /* AcceptViewController.swift */; };
+		EC6ACBA7204BDACA008EF4A8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6ACBA6204BDACA008EF4A8 /* ProfileViewController.swift */; };
 		ED25E1C822D93F7AF355C92A /* Pods_ForHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE3F051666CC4C5FCF38451 /* Pods_ForHacks.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		EC60852B204A372F00EC54C6 /* ForHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForHacksUITests.swift; sourceTree = "<group>"; };
 		EC60852D204A372F00EC54C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6ACBA2204B7365008EF4A8 /* ConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintViewController.swift; sourceTree = "<group>"; };
+		EC6ACBA4204BC68D008EF4A8 /* AcceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptViewController.swift; sourceTree = "<group>"; };
+		EC6ACBA6204BDACA008EF4A8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 			children = (
 				EC60850B204A372F00EC54C6 /* AppDelegate.swift */,
 				EC60850F204A372F00EC54C6 /* Main.storyboard */,
+				EC6ACBA6204BDACA008EF4A8 /* ProfileViewController.swift */,
+				EC6ACBA4204BC68D008EF4A8 /* AcceptViewController.swift */,
 				EC6ACBA2204B7365008EF4A8 /* ConstraintViewController.swift */,
 				EC262BA3204B681B00F72647 /* ViewController.swift */,
 				EC262BA1204B5FE400F72647 /* AddViewController.swift */,
@@ -353,7 +359,9 @@
 			files = (
 				EC262BA0204B5DD300F72647 /* TableViewController.swift in Sources */,
 				EC262BA2204B5FE400F72647 /* AddViewController.swift in Sources */,
+				EC6ACBA5204BC68D008EF4A8 /* AcceptViewController.swift in Sources */,
 				EC262BA4204B681B00F72647 /* ViewController.swift in Sources */,
+				EC6ACBA7204BDACA008EF4A8 /* ProfileViewController.swift in Sources */,
 				EC6ACBA3204B7365008EF4A8 /* ConstraintViewController.swift in Sources */,
 				EC60850C204A372F00EC54C6 /* AppDelegate.swift in Sources */,
 			);

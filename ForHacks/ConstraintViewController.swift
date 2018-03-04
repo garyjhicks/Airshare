@@ -13,6 +13,7 @@ import CoreLocation
 struct MyVars {
     static var myLocation: CLLocation = CLLocation(latitude: 0, longitude: 0)
     static var myAirport: String = "None"
+    static var objectid: String = "None"
 }
 
 class ConstraintViewController: UIViewController {
@@ -24,13 +25,16 @@ class ConstraintViewController: UIViewController {
         
         let geoCoder = CLGeocoder()
         
-        if let address = destination.text{
+        if let address = destination.text {
             
             geoCoder.geocodeAddressString(address, completionHandler: { (placemarks, error) in
                 if let placemark = placemarks?[0] {
                     
                     MyVars.myLocation = placemark.location!
                     MyVars.myAirport = self.airport.text!
+                    //print(MyVars.myAirport)
+                    //print(MyVars.myLocation.coordinate.latitude)
+                    //print(MyVars.myLocation.coordinate.longitude)
 
                 }
             })

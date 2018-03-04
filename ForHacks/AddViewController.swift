@@ -15,6 +15,8 @@ class AddViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var airport: UITextField!
     @IBOutlet weak var destination: UITextField!
+    @IBOutlet weak var gate: UITextField!
+    @IBOutlet weak var time: UITextField!
     
     func displayAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
@@ -49,6 +51,8 @@ class AddViewController: UIViewController {
                         people["userid"] = PFUser.current()?.objectId
                         people["latitude"] = latitude
                         people["longitude"] = longitude
+                        people["gate"] = self.gate.text
+                        people["time"] = self.time.text
                         
                         people.saveInBackground(block: { (success, error) in
                             

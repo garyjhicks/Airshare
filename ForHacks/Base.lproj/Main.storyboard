@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="find_your_trip-_state_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="k7v-eX-ykE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12.1-Find Your Trip.png" translatesAutoresizingMaskIntoConstraints="NO" id="k7v-eX-ykE">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -76,7 +76,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6.1-AirShare Buddy Profile 3.png" translatesAutoresizingMaskIntoConstraints="NO" id="zla-cI-env">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7.1-AirShare Buddy Profile 4.png" translatesAutoresizingMaskIntoConstraints="NO" id="zla-cI-env">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -125,7 +125,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="post_your_trip-_state_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="aBo-hn-owR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11.1-Post Your Trip.png" translatesAutoresizingMaskIntoConstraints="NO" id="aBo-hn-owR">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -401,14 +401,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="11.1-Post Your Trip.png" width="414" height="736"/>
+        <image name="12.1-Find Your Trip.png" width="414" height="736"/>
         <image name="2.1-Sign In.png" width="414" height="736"/>
         <image name="6.1-AirShare Buddy Profile 3.png" width="414" height="736"/>
+        <image name="7.1-AirShare Buddy Profile 4.png" width="414" height="736"/>
         <image name="blue.png" width="25" height="25"/>
-        <image name="find_your_trip-_state_1.png" width="414" height="736"/>
-        <image name="post_your_trip-_state_1.png" width="414" height="736"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dAj-Z3-cqa"/>
-        <segue reference="M2K-P0-WBk"/>
+        <segue reference="MOz-9O-3iN"/>
     </inferredMetricsTieBreakers>
 </document>

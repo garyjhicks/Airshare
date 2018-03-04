@@ -20,18 +20,21 @@
 		EC6ACBA5204BC68D008EF4A8 /* AcceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6ACBA4204BC68D008EF4A8 /* AcceptViewController.swift */; };
 		EC6ACBA7204BDACA008EF4A8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6ACBA6204BDACA008EF4A8 /* ProfileViewController.swift */; };
 		EC6ACBAF204BEA4F008EF4A8 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBAE204BEA4F008EF4A8 /* blue.png */; };
-		EC6ACBBB204BED2C008EF4A8 /* 5.1-View available Destinations.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBB1204BED2C008EF4A8 /* 5.1-View available Destinations.png */; };
-		EC6ACBBC204BED2C008EF4A8 /* 9.1-My Orders.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBB2204BED2C008EF4A8 /* 9.1-My Orders.png */; };
-		EC6ACBBD204BED2C008EF4A8 /* 2.1-Sign In.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBB3204BED2C008EF4A8 /* 2.1-Sign In.png */; };
-		EC6ACBBE204BED2C008EF4A8 /* 3.1-Welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBB4204BED2C008EF4A8 /* 3.1-Welcome.png */; };
-		EC6ACBBF204BED2C008EF4A8 /* 7.1-Confirm Order.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBB5204BED2C008EF4A8 /* 7.1-Confirm Order.png */; };
-		EC6ACBC0204BED2C008EF4A8 /* 8.1-Placing Order-State 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBB6204BED2C008EF4A8 /* 8.1-Placing Order-State 1.png */; };
-		EC6ACBC1204BED2C008EF4A8 /* 6.1-AirShare Buddy Profile 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBB7204BED2C008EF4A8 /* 6.1-AirShare Buddy Profile 3.png */; };
-		EC6ACBC2204BED2C008EF4A8 /* 1.1-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBB8204BED2C008EF4A8 /* 1.1-Home.png */; };
-		EC6ACBC4204BED2C008EF4A8 /* 8.2-Placing Order-State 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBBA204BED2C008EF4A8 /* 8.2-Placing Order-State 2.png */; };
-		EC6ACBC6204BF067008EF4A8 /* post_your_trip-_state_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBC5204BF067008EF4A8 /* post_your_trip-_state_1.png */; };
-		EC6ACBC8204BF06F008EF4A8 /* find_your_trip-_state_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBC7204BF06F008EF4A8 /* find_your_trip-_state_1.png */; };
 		EC6ACBCA204C5715008EF4A8 /* NewAcceptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6ACBC9204C5715008EF4A8 /* NewAcceptViewController.swift */; };
+		EC6ACBD9204C79B8008EF4A8 /* 8.1-Confirm Order.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBCC204C79B8008EF4A8 /* 8.1-Confirm Order.png */; };
+		EC6ACBDA204C79B8008EF4A8 /* 5.1-View available Destinations.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBCD204C79B8008EF4A8 /* 5.1-View available Destinations.png */; };
+		EC6ACBDB204C79B8008EF4A8 /* 9.1-Placing Order-State 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBCE204C79B8008EF4A8 /* 9.1-Placing Order-State 1.png */; };
+		EC6ACBDC204C79B8008EF4A8 /* 2.1-Sign In.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBCF204C79B8008EF4A8 /* 2.1-Sign In.png */; };
+		EC6ACBDD204C79B8008EF4A8 /* 3.1-Welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD0204C79B8008EF4A8 /* 3.1-Welcome.png */; };
+		EC6ACBDE204C79B8008EF4A8 /* 11.1-Post Your Trip.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD1204C79B8008EF4A8 /* 11.1-Post Your Trip.png */; };
+		EC6ACBDF204C79B8008EF4A8 /* 12.1-Find Your Trip.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD2204C79B8008EF4A8 /* 12.1-Find Your Trip.png */; };
+		EC6ACBE0204C79B8008EF4A8 /* 10.1-My Orders.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD3204C79B8008EF4A8 /* 10.1-My Orders.png */; };
+		EC6ACBE1204C79B8008EF4A8 /* 6.1-AirShare Buddy Profile 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD4204C79B8008EF4A8 /* 6.1-AirShare Buddy Profile 3.png */; };
+		EC6ACBE2204C79B8008EF4A8 /* 1.1-Home.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD5204C79B8008EF4A8 /* 1.1-Home.png */; };
+		EC6ACBE3204C79B8008EF4A8 /* 9.2-Placing Order-State 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD6204C79B8008EF4A8 /* 9.2-Placing Order-State 2.png */; };
+		EC6ACBE4204C79B8008EF4A8 /* 4.1-Choose Destination.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD7204C79B8008EF4A8 /* 4.1-Choose Destination.png */; };
+		EC6ACBE5204C79B8008EF4A8 /* 7.1-AirShare Buddy Profile 4.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBD8204C79B8008EF4A8 /* 7.1-AirShare Buddy Profile 4.png */; };
+		EC6ACBE9204C7BA3008EF4A8 /* logo_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6ACBE8204C7BA3008EF4A8 /* logo_1024.png */; };
 		ED25E1C822D93F7AF355C92A /* Pods_ForHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE3F051666CC4C5FCF38451 /* Pods_ForHacks.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,18 +78,21 @@
 		EC6ACBA4204BC68D008EF4A8 /* AcceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptViewController.swift; sourceTree = "<group>"; };
 		EC6ACBA6204BDACA008EF4A8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		EC6ACBAE204BEA4F008EF4A8 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
-		EC6ACBB1204BED2C008EF4A8 /* 5.1-View available Destinations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5.1-View available Destinations.png"; sourceTree = "<group>"; };
-		EC6ACBB2204BED2C008EF4A8 /* 9.1-My Orders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9.1-My Orders.png"; sourceTree = "<group>"; };
-		EC6ACBB3204BED2C008EF4A8 /* 2.1-Sign In.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2.1-Sign In.png"; sourceTree = "<group>"; };
-		EC6ACBB4204BED2C008EF4A8 /* 3.1-Welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3.1-Welcome.png"; sourceTree = "<group>"; };
-		EC6ACBB5204BED2C008EF4A8 /* 7.1-Confirm Order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7.1-Confirm Order.png"; sourceTree = "<group>"; };
-		EC6ACBB6204BED2C008EF4A8 /* 8.1-Placing Order-State 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8.1-Placing Order-State 1.png"; sourceTree = "<group>"; };
-		EC6ACBB7204BED2C008EF4A8 /* 6.1-AirShare Buddy Profile 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6.1-AirShare Buddy Profile 3.png"; sourceTree = "<group>"; };
-		EC6ACBB8204BED2C008EF4A8 /* 1.1-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.1-Home.png"; sourceTree = "<group>"; };
-		EC6ACBBA204BED2C008EF4A8 /* 8.2-Placing Order-State 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8.2-Placing Order-State 2.png"; sourceTree = "<group>"; };
-		EC6ACBC5204BF067008EF4A8 /* post_your_trip-_state_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_your_trip-_state_1.png"; sourceTree = "<group>"; };
-		EC6ACBC7204BF06F008EF4A8 /* find_your_trip-_state_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "find_your_trip-_state_1.png"; sourceTree = "<group>"; };
 		EC6ACBC9204C5715008EF4A8 /* NewAcceptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAcceptViewController.swift; sourceTree = "<group>"; };
+		EC6ACBCC204C79B8008EF4A8 /* 8.1-Confirm Order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8.1-Confirm Order.png"; sourceTree = "<group>"; };
+		EC6ACBCD204C79B8008EF4A8 /* 5.1-View available Destinations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5.1-View available Destinations.png"; sourceTree = "<group>"; };
+		EC6ACBCE204C79B8008EF4A8 /* 9.1-Placing Order-State 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9.1-Placing Order-State 1.png"; sourceTree = "<group>"; };
+		EC6ACBCF204C79B8008EF4A8 /* 2.1-Sign In.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2.1-Sign In.png"; sourceTree = "<group>"; };
+		EC6ACBD0204C79B8008EF4A8 /* 3.1-Welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3.1-Welcome.png"; sourceTree = "<group>"; };
+		EC6ACBD1204C79B8008EF4A8 /* 11.1-Post Your Trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11.1-Post Your Trip.png"; sourceTree = "<group>"; };
+		EC6ACBD2204C79B8008EF4A8 /* 12.1-Find Your Trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12.1-Find Your Trip.png"; sourceTree = "<group>"; };
+		EC6ACBD3204C79B8008EF4A8 /* 10.1-My Orders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10.1-My Orders.png"; sourceTree = "<group>"; };
+		EC6ACBD4204C79B8008EF4A8 /* 6.1-AirShare Buddy Profile 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6.1-AirShare Buddy Profile 3.png"; sourceTree = "<group>"; };
+		EC6ACBD5204C79B8008EF4A8 /* 1.1-Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1.1-Home.png"; sourceTree = "<group>"; };
+		EC6ACBD6204C79B8008EF4A8 /* 9.2-Placing Order-State 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9.2-Placing Order-State 2.png"; sourceTree = "<group>"; };
+		EC6ACBD7204C79B8008EF4A8 /* 4.1-Choose Destination.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4.1-Choose Destination.png"; sourceTree = "<group>"; };
+		EC6ACBD8204C79B8008EF4A8 /* 7.1-AirShare Buddy Profile 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7.1-AirShare Buddy Profile 4.png"; sourceTree = "<group>"; };
+		EC6ACBE8204C7BA3008EF4A8 /* logo_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_1024.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +176,8 @@
 				EC608514204A372F00EC54C6 /* LaunchScreen.storyboard */,
 				EC608517204A372F00EC54C6 /* Info.plist */,
 				EC6ACBAE204BEA4F008EF4A8 /* blue.png */,
-				EC6ACBB0204BED2C008EF4A8 /* protoio-Airshare-screenshots */,
+				EC6ACBE8204C7BA3008EF4A8 /* logo_1024.png */,
+				EC6ACBCB204C79B8008EF4A8 /* protoio-Airshare-screenshots (1) */,
 			);
 			path = ForHacks;
 			sourceTree = "<group>";
@@ -193,22 +200,24 @@
 			path = ForHacksUITests;
 			sourceTree = "<group>";
 		};
-		EC6ACBB0204BED2C008EF4A8 /* protoio-Airshare-screenshots */ = {
+		EC6ACBCB204C79B8008EF4A8 /* protoio-Airshare-screenshots (1) */ = {
 			isa = PBXGroup;
 			children = (
-				EC6ACBB1204BED2C008EF4A8 /* 5.1-View available Destinations.png */,
-				EC6ACBB2204BED2C008EF4A8 /* 9.1-My Orders.png */,
-				EC6ACBB3204BED2C008EF4A8 /* 2.1-Sign In.png */,
-				EC6ACBB4204BED2C008EF4A8 /* 3.1-Welcome.png */,
-				EC6ACBB5204BED2C008EF4A8 /* 7.1-Confirm Order.png */,
-				EC6ACBB6204BED2C008EF4A8 /* 8.1-Placing Order-State 1.png */,
-				EC6ACBB7204BED2C008EF4A8 /* 6.1-AirShare Buddy Profile 3.png */,
-				EC6ACBB8204BED2C008EF4A8 /* 1.1-Home.png */,
-				EC6ACBBA204BED2C008EF4A8 /* 8.2-Placing Order-State 2.png */,
-				EC6ACBC5204BF067008EF4A8 /* post_your_trip-_state_1.png */,
-				EC6ACBC7204BF06F008EF4A8 /* find_your_trip-_state_1.png */,
+				EC6ACBCC204C79B8008EF4A8 /* 8.1-Confirm Order.png */,
+				EC6ACBCD204C79B8008EF4A8 /* 5.1-View available Destinations.png */,
+				EC6ACBCE204C79B8008EF4A8 /* 9.1-Placing Order-State 1.png */,
+				EC6ACBCF204C79B8008EF4A8 /* 2.1-Sign In.png */,
+				EC6ACBD0204C79B8008EF4A8 /* 3.1-Welcome.png */,
+				EC6ACBD1204C79B8008EF4A8 /* 11.1-Post Your Trip.png */,
+				EC6ACBD2204C79B8008EF4A8 /* 12.1-Find Your Trip.png */,
+				EC6ACBD3204C79B8008EF4A8 /* 10.1-My Orders.png */,
+				EC6ACBD4204C79B8008EF4A8 /* 6.1-AirShare Buddy Profile 3.png */,
+				EC6ACBD5204C79B8008EF4A8 /* 1.1-Home.png */,
+				EC6ACBD6204C79B8008EF4A8 /* 9.2-Placing Order-State 2.png */,
+				EC6ACBD7204C79B8008EF4A8 /* 4.1-Choose Destination.png */,
+				EC6ACBD8204C79B8008EF4A8 /* 7.1-AirShare Buddy Profile 4.png */,
 			);
-			path = "protoio-Airshare-screenshots";
+			path = "protoio-Airshare-screenshots (1)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,21 +330,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6ACBE4204C79B8008EF4A8 /* 4.1-Choose Destination.png in Resources */,
+				EC6ACBE3204C79B8008EF4A8 /* 9.2-Placing Order-State 2.png in Resources */,
+				EC6ACBE1204C79B8008EF4A8 /* 6.1-AirShare Buddy Profile 3.png in Resources */,
+				EC6ACBDE204C79B8008EF4A8 /* 11.1-Post Your Trip.png in Resources */,
+				EC6ACBDF204C79B8008EF4A8 /* 12.1-Find Your Trip.png in Resources */,
+				EC6ACBDC204C79B8008EF4A8 /* 2.1-Sign In.png in Resources */,
 				EC608516204A372F00EC54C6 /* LaunchScreen.storyboard in Resources */,
-				EC6ACBC2204BED2C008EF4A8 /* 1.1-Home.png in Resources */,
-				EC6ACBBD204BED2C008EF4A8 /* 2.1-Sign In.png in Resources */,
+				EC6ACBE9204C7BA3008EF4A8 /* logo_1024.png in Resources */,
 				EC608513204A372F00EC54C6 /* Assets.xcassets in Resources */,
-				EC6ACBBF204BED2C008EF4A8 /* 7.1-Confirm Order.png in Resources */,
-				EC6ACBBC204BED2C008EF4A8 /* 9.1-My Orders.png in Resources */,
-				EC6ACBC0204BED2C008EF4A8 /* 8.1-Placing Order-State 1.png in Resources */,
-				EC6ACBC4204BED2C008EF4A8 /* 8.2-Placing Order-State 2.png in Resources */,
+				EC6ACBDA204C79B8008EF4A8 /* 5.1-View available Destinations.png in Resources */,
+				EC6ACBDB204C79B8008EF4A8 /* 9.1-Placing Order-State 1.png in Resources */,
 				EC608511204A372F00EC54C6 /* Main.storyboard in Resources */,
-				EC6ACBBE204BED2C008EF4A8 /* 3.1-Welcome.png in Resources */,
-				EC6ACBC1204BED2C008EF4A8 /* 6.1-AirShare Buddy Profile 3.png in Resources */,
-				EC6ACBC8204BF06F008EF4A8 /* find_your_trip-_state_1.png in Resources */,
-				EC6ACBBB204BED2C008EF4A8 /* 5.1-View available Destinations.png in Resources */,
+				EC6ACBD9204C79B8008EF4A8 /* 8.1-Confirm Order.png in Resources */,
+				EC6ACBDD204C79B8008EF4A8 /* 3.1-Welcome.png in Resources */,
 				EC6ACBAF204BEA4F008EF4A8 /* blue.png in Resources */,
-				EC6ACBC6204BF067008EF4A8 /* post_your_trip-_state_1.png in Resources */,
+				EC6ACBE5204C79B8008EF4A8 /* 7.1-AirShare Buddy Profile 4.png in Resources */,
+				EC6ACBE0204C79B8008EF4A8 /* 10.1-My Orders.png in Resources */,
+				EC6ACBE2204C79B8008EF4A8 /* 1.1-Home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

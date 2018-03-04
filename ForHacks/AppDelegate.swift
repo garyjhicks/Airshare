@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  ForHacks
 //
-//  Created by Gary Hicks on 2018-03-02.
+//  Created by Gary Hicks on 2018-03-03.
 //  Copyright © 2018 Gary Hicks. All rights reserved.
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "849df2ecd4a6d590cce0c35a72f3f1d690dfd139"
+            $0.clientKey = "a9292ae287dc29658486d20c1ad4f7ecaed7963d"
+            $0.server = "http://ec2-18-222-105-32.us-east-2.compute.amazonaws.com/parse"
+        }
+        Parse.initialize(with: configuration)
+        
         return true
     }
 

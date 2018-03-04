@@ -1,0 +1,6 @@
+framework module Pods_ForHacks {
+  umbrella header "Pods-ForHacks-umbrella.h"
+
+  export *
+  module * { export * }
+}
